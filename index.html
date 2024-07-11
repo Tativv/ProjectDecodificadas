@@ -13,26 +13,30 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="left-section">
-                <div class="search-container">
-                    <button><img src="assets/icons/lupa.png" alt="Pesquisar"></button>
-                    <input type="text" placeholder="Pesquisar">
-                </div>
-                <a href="src/pages/how-it-works.html">Como Funciona?</a>
-                <a href="src/pages/about.html">Sobre nós</a>
-            </div>
             <div class="logo">
                 <a href="index.html"><img src="assets/images/logo.png" alt="FundU Logo"></a>
             </div>
-            <div class="right-section">
-                <a href="index.html">Início</a>
-                <a href="src/pages/projetos.html">Projetos</a>
-                <a href="src/pages/contato.html">Contato</a>
-                <a href="src/pages/login.html">Login</a>
-                <a href="src/pages/cadastro.html">Cadastrar-se</a>
-            </div>
+            <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+            <nav class="menu">
+                <div class="left-section">
+                    <div class="search-container">
+                        <button><img src="assets/icons/lupa.png" alt="Pesquisar"></button>
+                        <input type="text" placeholder="Pesquisar">
+                    </div>
+                    <a href="src/pages/how-it-works.html">Como Funciona?</a>
+                    <a href="src/pages/about.html">Sobre nós</a>
+                </div>
+                <div class="right-section">
+                    <a href="index.html">Início</a>
+                    <a href="src/pages/projetos.html">Projetos</a>
+                    <a href="src/pages/contato.html">Contato</a>
+                    <a href="src/pages/login.html">Login</a>
+                    <a href="src/pages/cadastro.html">Cadastrar-se</a>
+                </div>
+            </nav>
         </div>
     </header>
+
 
     <!-- Banner -->
     <div class="banner">
@@ -172,7 +176,7 @@
             </div>
         </div>
     </footer>
-    
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>
