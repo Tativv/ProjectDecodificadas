@@ -36,22 +36,6 @@ header {
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    position: relative;
-}
-
-
-.logo {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.menu {
-    display: flex;
-    flex: 2;
     justify-content: space-between;
     align-items: center;
 }
@@ -64,10 +48,9 @@ header {
 .search-container {
     display: flex;
     align-items: center;
-    background-color: var(--second-bg-color);
+    background-color: var(--main-bg-color);
     border-radius: 5px;
     overflow: hidden;
-    padding-right: 100px;
 }
 
 input {
@@ -100,14 +83,6 @@ button img {
 
 .logo img {
     height: 50px;
-}
-
-.menu-toggle {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-    background: none;
-    border: none;
 }
 
 .banner {
@@ -975,31 +950,6 @@ footer {
     background-color: var(--button-hv-color);
     transform: scale(1.05);
 }
-
-
-@media (max-width: 768px) {
-    .menu {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        background-color: #fff;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        left: 0;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        z-index: 10;
-    }
-
-    .menu.open {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-}
-
 
 @media (max-width: 1024px) {
     .main-title {
