@@ -9,7 +9,6 @@
     --button-hv-color: #0056b3;
 }
 
-
 body, html {
     margin: 0;
     padding: 0;
@@ -48,7 +47,7 @@ header {
 .search-container {
     display: flex;
     align-items: center;
-    background-color: var(--main-bg-color);
+    background-color: var(--second-bg-color);
     border-radius: 5px;
     overflow: hidden;
 }
@@ -165,7 +164,6 @@ button img {
 }
 
 /* Featured Projects */
-
 #proyectos-destacados .content-wrapper {
     padding: 60px 20px;
     display: flex;
@@ -245,7 +243,6 @@ button img {
 
 
 /* Presentation Video */
-
 #introduction-fundu .video-conteiner {
     padding: 40px 20px;
     display: flex;
@@ -358,7 +355,6 @@ color: var(--text-color);
 }
 
 /*Page Projects*/
-
 .filters {
     margin: 10px 0; 
     padding: 20px;
@@ -484,7 +480,6 @@ color: var(--text-color);
 }
 
 /* Contact Section */
-
 #contact {
     display: flex;
     justify-content: center;
@@ -548,7 +543,6 @@ button[type="submit"]:hover {
 }
 
 /* Project Detail */
-
 .container-detail{
     box-sizing: border-box;
 }
@@ -598,7 +592,6 @@ button[type="submit"]:hover {
 }
 
 /* About-us */
-
 .container-about {
     box-sizing: border-box;
 }
@@ -654,7 +647,6 @@ button[type="submit"]:hover {
 }
 
 /* Footer */
-
 footer {
     background-color: var(--second-bg-color);
     color: var(--text-color);
@@ -722,7 +714,6 @@ footer {
 }
 
 /* Sobre nos*/
-
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -817,13 +808,11 @@ footer {
 }
 
 /*Login*/
-
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 
 .login-form {
@@ -835,12 +824,10 @@ footer {
     max-width: 400px;
 }
 
-
 .login-form h2 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
-
 
 .form-group {
     margin-bottom: 1.5rem;
@@ -856,10 +843,8 @@ footer {
     padding: 0.75rem;
     border: 1px solid #cccccc;
     border-radius: 4px;
-    font-size: 1rem;
-    
+    font-size: 1rem;    
 }
-
 
 .login-form button {
     width: 100%;
@@ -888,7 +873,6 @@ footer {
 }
 
 /*Registro*/
-
 .registro-container {
     display: flex;
     justify-content: center;
@@ -906,23 +890,19 @@ footer {
     max-width: 400px;
 }
 
-
 .registro-form h2 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-
 .form-group {
     margin-bottom: 1.5rem;
 }
-
 
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
 }
-
 
 .form-group input {
     width: 100%;
@@ -931,7 +911,6 @@ footer {
     border-radius: 4px;
     font-size: 1rem;
 }
-
 
 .registro-form button {
     width: 100%;
@@ -944,7 +923,6 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 
 .registro-form button:hover {
     background-color: var(--button-hv-color);
